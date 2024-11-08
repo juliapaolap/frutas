@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Section */
+  section {
+    padding: 40px;
+  }
+  
+  /* Fieldset y Article */
+  fieldset, article {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  fieldset legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  fieldset input, article input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Button */
+  button {
+    background-color: #50a5de;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #216898;
+  }
+  
+  /* Tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+
+  .dosColumnas {
+    width: 50%;
+    display: inline-block;
+  }
+  
+  #titulos {
+    text-align: right;
+  }
+  
+  #totales {
+    text-align: left;
+  }
+  
+  .fondo {
+    background-color: #f06292; /* Vibrant pink */
+    color: #fff;
+  }
+  
+  .texto {
+    font-size: 1.2rem;
+  }
